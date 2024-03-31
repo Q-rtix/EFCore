@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f4e70341_002Dae32_002D48fd_002Db1b6_002Dc20575e8f169/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Convert_DateOnlyToDateTime_Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::518C8003-7A10-4728-B5D3-830D30A6875F::net8.0::EFCore.Converters.Tests.UnitTests.DateTime.DateOnlyConverterTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::518C8003-7A10-4728-B5D3-830D30A6875F::net8.0::EFCore.Converters.Tests.UnitTests.DateTime.TimeOnlyConverterTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
