@@ -1,0 +1,10 @@
+.idea/
+.vs/
+.vscode/
+.code/
+_site/
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
