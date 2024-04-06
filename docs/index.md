@@ -2,10 +2,15 @@
 _layout: landing
 ---
 
-# This is the **HOMEPAGE**.
+# Introduction
 
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
+![NuGet Version](https://img.shields.io/nuget/v/Qrtix.EFCore.Converters)
 
-## Quick Start Notes:
+Welcome to the documentation for EFCore.Converters! This library provides converters to facilitate bidirectional
+conversion between .NET Core's DateOnly and TimeOnly types and their corresponding types in Entity Framework Core.
 
-1. Add images to the *images* folder if the file is referencing an image.
+Feel free to explore each section to learn more about how to use EFCore.Converters effectively in your projects.
+
+If you have any questions or need further assistance, don't hesitate to reach out to us.
+
+Happy coding!
