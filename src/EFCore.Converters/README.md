@@ -1,5 +1,7 @@
 # Entity Framework Core Converters
 
+![NuGet Version](https://img.shields.io/nuget/v/Qrtix.EFCore.Converters)
+
 This library offers a range of custom converters that can be integrated into Entity Framework Core through the overriding of the ConfigureConventions method. These converters enable flexible and personalized data transformation between database data types and application data types.
 
 Consult the online [documentation](https://q-rtix.github.io/EFCore/) for more details.
