@@ -9,7 +9,9 @@
           ]
         }
       ],
-      "dest": "api"
+      "dest": "api",
+      "allowCompilationErrors": true,
+      "outputFormat": "markdown"
     }
   ],
   "build": {
@@ -39,6 +41,9 @@
       "_appName": "EFCore",
       "_appTitle": "EFCore",
       "_enableSearch": true,
+      "_appFooter": "<span>Copyright © 2024 <strong>Carlos J. Ortiz || Q-rtix</strong></span>",
+      "_disableContribution": true,
+      "_lang": "EN",
       "pdf": false
     }
   }
