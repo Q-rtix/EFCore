@@ -1,6 +1,7 @@
 # Database Manager EFCore Repository Pattern
 
-![NuGet Version](https://img.shields.io/nuget/v/Qrtix.EFCore.RepositoryPattern)
+![NuGet Version](https://img.shields.io/nuget/v/Qrtix.EFCore.RepositoryPattern?style=flat&logo=nuget)
+![GitHub Repo stars](https://img.shields.io/github/stars/Q-rtix/EFCore?style=flat&logo=github)
 
 A library for implementing generic repositories and unit of work with Entity Framework Core.
 This implementation uses a single instance of the DbContext for all repositories to avoid concurrency issues.
