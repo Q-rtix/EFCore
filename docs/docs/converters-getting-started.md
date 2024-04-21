@@ -59,5 +59,3 @@ public class YourEntity
 ```
 
 That's it! You're now ready to use EFCore.Converters in your Entity Framework Core project.
-
-For more advanced usage and customization options, refer to the [Advanced Usage](converters-advanced-usage.md) section.

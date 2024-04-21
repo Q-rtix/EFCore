@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.Converters", "src\EF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.Converters.Tests.UnitTests", "tests\EFCore.Converters.Tests.UnitTests\EFCore.Converters.Tests.UnitTests.csproj", "{518C8003-7A10-4728-B5D3-830D30A6875F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.Patterns.Respository", "src\EFCore.Patterns.Respository\EFCore.Patterns.Respository.csproj", "{F06A3637-2226-45AD-AD8F-F125071A9564}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.RepositoryPattern", "src\EFCore.RepositoryPattern\EFCore.RepositoryPattern.csproj", "{F06A3637-2226-45AD-AD8F-F125071A9564}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -6,5 +6,7 @@
   - name: Getting Started
     href: converters-getting-started.md
 - name: EFCore.RepositoryPattern
-  href: repository-pattern-getting-started.md
+  href: repository-pattern-introduction.md
   items:
+    - name: Getting Started
+      href: repository-pattern-getting-started.md
