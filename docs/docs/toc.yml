@@ -10,3 +10,5 @@
   items:
     - name: Getting Started
       href: repository-pattern-getting-started.md
+- name: Contributing
+  href: contributing.md

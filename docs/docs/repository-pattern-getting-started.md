@@ -61,7 +61,55 @@ public class AppDbContext : DbContext
 
 ### 3. Inject Dependencies:
 
-Inject the required dependencies (repositories and unit of work) into your application's services or controllers using
-your preferred dependency injection framework, such as Microsoft.Extensions.DependencyInjection.
+Inject the required dependencies into your application's services using the `AddRepositoryPattern` method in the program
+class:
 
-That's it! You're now ready to use EFCore.RepositoryPattern in your Entity Framework Core project.
+```csharp
+builder.Services.AddDbContext<AppDbContext>(options =>
+        options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddRepositoryPattern();
+```
+
+### 4. Use Repositories:
+
+Use the injected repository or the unit of work instances to perform database operations such as querying, inserting,
+updating, and deleting entities.
+
+```csharp
+// Using the injectod UnitOfWork
+public class ProductService
+{
+    private readonly IUnitOfWork _unitOfWork;
+
+    public ProductService(IUnitOfWork unitOfWork)
+    {
+        _unitOfWork = unitOfWork;
+    }
+
+    public async Task<List<Product>> GetProductsAsync()
+    {
+        return await _unitOfWork.Repository<Product>.GetManyAsync();
+    }
+
+    // Other methods for CRUD operations, transaction management, etc.
+}
+
+// Using the injected Repository
+public class ProductService
+{
+    private readonly IRepository<Product> _productRepository;
+
+    public ProductService(IRepository<Product> productRepository)
+    {
+        _productRepository = productRepository;
+    }
+
+    public async Task<List<Product>> GetProductsAsync()
+    {
+        return await _productRepository.GetManyAsync();
+    }
+
+    // Other methods for CRUD operations, transaction management, etc.
+}
+```
