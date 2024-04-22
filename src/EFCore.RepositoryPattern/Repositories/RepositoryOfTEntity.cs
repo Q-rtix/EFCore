@@ -1,7 +1,9 @@
 using System.Linq.Expressions;
+using System.Runtime.CompilerServices;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
+[assembly: InternalsVisibleTo("EFCore.RepositoryPattern.Tests")]
 namespace EFCore.RepositoryPattern.Repositories;
 
 internal class Repository<TEntity> : IRepository<TEntity> where TEntity : class

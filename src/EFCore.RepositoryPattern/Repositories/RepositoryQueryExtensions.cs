@@ -1,6 +1,8 @@
 using System.Linq.Expressions;
+using System.Runtime.CompilerServices;
 using Microsoft.EntityFrameworkCore;
 
+[assembly: InternalsVisibleTo("EFCore.RepositoryPattern.Tests")]
 namespace EFCore.RepositoryPattern.Repositories;
 
 internal static class RepositoryQueryExtensions
@@ -15,7 +17,7 @@ internal static class RepositoryQueryExtensions
 		   ?? query;
 
 	internal static IQueryable<T> ApplyOrdering<T>(this IQueryable<T> query,
-		Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy) where T : class
+		Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy)
 		=> orderBy is null
 			? query
 			: orderBy(query);

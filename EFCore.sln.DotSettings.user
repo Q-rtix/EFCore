@@ -3,5 +3,9 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::518C8003-7A10-4728-B5D3-830D30A6875F::net8.0::EFCore.Converters.Tests.UnitTests.DateTime.DateOnlyConverterTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::518C8003-7A10-4728-B5D3-830D30A6875F::net8.0::EFCore.Converters.Tests.UnitTests.DateTime.TimeOnlyConverterTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::994F2D7A-4CC1-4B29-BE95-704E8301188F::net8.0::EFCore.RepositoryPattern.Tests.UnitTests.Repositories.RepositoryQueryExtensionsTest.WithTrackingOptionTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::994F2D7A-4CC1-4B29-BE95-704E8301188F::net8.0::EFCore.RepositoryPattern.Tests.UnitTests.Repositories.RepositoryQueryExtensionsTest.WithIncludePropertiesTests.CanIncludePropertiesWhenIncludesIsNotNull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::994F2D7A-4CC1-4B29-BE95-704E8301188F::net8.0::EFCore.RepositoryPattern.Tests.UnitTests.Repositories.RepositoryQueryExtensionsTest.WithIncludePropertiesTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::994F2D7A-4CC1-4B29-BE95-704E8301188F::net8.0::EFCore.RepositoryPattern.Tests.UnitTests.Repositories.RepositoryQueryExtensionsTest.ApplyOrderingTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
