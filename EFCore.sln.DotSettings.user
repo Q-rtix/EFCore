@@ -7,5 +7,7 @@
     &lt;TestId&gt;xUnit::994F2D7A-4CC1-4B29-BE95-704E8301188F::net8.0::EFCore.RepositoryPattern.Tests.UnitTests.Repositories.RepositoryQueryExtensionsTest.WithIncludePropertiesTests.CanIncludePropertiesWhenIncludesIsNotNull&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::994F2D7A-4CC1-4B29-BE95-704E8301188F::net8.0::EFCore.RepositoryPattern.Tests.UnitTests.Repositories.RepositoryQueryExtensionsTest.WithIncludePropertiesTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::994F2D7A-4CC1-4B29-BE95-704E8301188F::net8.0::EFCore.RepositoryPattern.Tests.UnitTests.Repositories.RepositoryQueryExtensionsTest.ApplyOrderingTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::994F2D7A-4CC1-4B29-BE95-704E8301188F::net8.0::EFCore.RepositoryPattern.Tests.UnitTests.Repositories.RepositoryTest.GetManyAsyncTests.GetManyAsync_ShouldReturn_AllEntities&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::994F2D7A-4CC1-4B29-BE95-704E8301188F::net8.0::EFCore.RepositoryPattern.Tests.Repositories.RepositoryTest.GetManyAsyncTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
